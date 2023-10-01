@@ -21,7 +21,7 @@ const app = express();
 mongoose
   .connect("mongodb://localhost:27017/loginDemo", { useNewUrlParser: true })
   .then(() => {
-    console.log("auth demo");
+    console.log(" in auth demo");
   })
   .catch((err) => {
     console.log("mongo connection error!");
